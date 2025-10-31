@@ -1,0 +1,31 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.13.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^24.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "@types/express": "^4.17.21",
+    "@types/express-serve-static-core": "^4.17.43"
+  }
+}
